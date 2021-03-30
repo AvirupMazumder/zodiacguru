@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Zodiac Home Page</title>
+  </head>
+  <style>
+    p{
+      font-size: 20px;
+      margin-bottom:100px;
+    }
+
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    /* Add a hover effect if you want */
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    /* Set a specific color for each brand */
+    .navbar {
+      background: rgba(255,255,255,0.9);
+    }
+    /* Facebook */
+    .fa-facebook {
+      background: bg-dark;
+      color: white;
+    }
+    .fa-instagram {
+      background: bg-dark;
+      color: white;
+    }
+    .fa-google {
+      background: bg-dark;
+      color: white;
+    }
+    /* Twitter */
+    .fa-twitter {
+      background: bg-dark;
+      color: white;
+    }
+  </style>
+  <body style="background-image:url(https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1370&q=80);color:#FFFFFF">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-bottom:40px;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" style="font-family:Courier; margin-left:40px; font-size:24px;">ZODIACGURU.COM</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+          <!-- Add font awesome icons -->
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-google"></a>
+          <a href="#" class="fa fa-twitter" style="margin-right:40px;"></a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div style="font-family:'Times New Roman', serif;text-align:center;">
+        <h1 style="font-size:60px;">Welcome to ZodiacGuru.com</h1>
+        <p>Choose your sign</p>
+        <div class="card-group" style="margin-bottom:20px;">
+          <div class="card" style="background: rgba(255,255,255,0.1)">
+            <img src="https://www.deccanherald.com/sites/dh/files/article_images/2020/05/27/Aries%20-%20Horoscope-1808354055-1590521701.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="Aries/Aries_compatibility.html">
+                <h5 class="card-title" style="font-size:30px;">Aries</h5>
+                <p class="card-text">March 21-April 19</p>
+              </a>
+            </div>
+          </div>
+          <div class="card" style="background: rgba(255,255,255,0.1)">
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2021/01/28/taurus-1590936634-944028-1611775801.jpg?itok=5sc40av_" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="Taurus/Taurus_compatibility.html">
+                <h5 class="card-title" style="font-size:30px;">Taurus</h5>
+                <p class="card-text">April 20-May 20</p>
+              </a>
+            </div>
+          </div>
+          <div class="card" style="background: rgba(255,255,255,0.1)">
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2021/01/30/gemini-944904-1611948601.jpg?itok=kHCbnQ1k" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="Gemini/Gemini_compatibility.html">
+                <h5 class="card-title" style="font-size:30px;
+                ">Gemini</h5>
+                <p class="card-text">May 21-June 20</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card-group" style="margin-bottom:20px;">
+          <div class="card" style="background: rgba(255,255,255,0.1)">
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/article_images/2020/05/19/zodiac-sign-4374406_1280-1825667916-1578117128.jpg?itok=im60sFfx" alt="...">
+            <div class="card-body">
+              <a href="Cancer/Cancer_compatibility.html">
+                <h5 class="card-title" style="font-size:30px;">Cancer</h5>
+                <p class="card-text">June 21-July 22</p>
+              </a>
+            </div>
+          </div>
+          <div class="card" style="background: rgba(255,255,255,0.1)">
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2020/11/04/leo-1590936958-1592524388-1593090785-1593696838-908885-1604000052-910840-1604428202.jpg?itok=9Y49sXJe" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="Leo/Leo_compatibility.html">
+                <h5 class="card-title" style="font-size:30px;">Leo</h5>
+                <p class="card-text">July 23-August 22</p>
+              </a>
+            </div>
+          </div>
+          <div class="card" style="background: rgba(255,255,255,0.1)">
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/article_images/2020/05/19/zodiac-sign-4374409_1280-120237120-1578117104.jpg?itok=8JEIAHXF" alt="...">
+            <div class="card-body">
+              <a href="Virgo/Virgo_compatibility.html">  
+                <h5 class="card-title" style="font-size:30px;">Virgo</h5>
+                <p class="card-text">August 23-September 22</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card-group" style="margin-bottom:20px;">
+          <div class="card" style="background: rgba(255,255,255,0.1)">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl_zsOknwEdrlRZcfBzunLa1PoKywW8a_y8lDGcWCGsZNu6BxgVkBA3RifBflGKLvSdNs&usqp=CAU" alt="...">
+            <div class="card-body">
+              <a href="Libra/Libra_compatibility.html">
+                <h5 class="card-title" style="font-size:30px;">Libra</h5>
+                <p class="card-text">September 23-October 22</p>
+              </a>
+            </div>
+          </div>
+          <div class="card" style="background: rgba(255,255,255,0.1)">
+            <img src="https://www.deccanherald.com/sites/dh/files/articleimages/2021/01/03/scorpio-1590937431-1592524701-934439-1609620594.jpg" alt="...">
+            <div class="card-body">
+              <a href="Scorpio/Scorpio_compatibility.html">
+                <h5 class="card-title" style="font-size:30px;">Scorpio</h5>
+                <p class="card-text">October 23-November 21</p>
+              </a>
+            </div>
+          </div>
+          <div class="card" style="background: rgba(255,255,255,0.1)">
+            <img src="https://assets-news-bcdn.dailyhunt.in/cmd/resize/400x400_80//fetchdata15/images/a0/36/27/a03627efb2d8d61324de742a856c6d2a.jpg" alt="...">
+            <div class="card-body">
+              <a href="Sagittarius/Sagittarius_compatibility.html">
+                <h5 class="card-title" style="font-size:30px;
+                ">Sagittarius</h5>
+                <p class="card-text">November 22-December 21</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card-group" style="margin-bottom:50px;">
+          <div class="card" style="background: rgba(255,255,255,0.1)">
+            <img src="https://astrotalk.com/astrology-blog/wp-content/uploads/2019/12/zodiac-sign-4374414_1920-e1577539987610.jpg" alt="...">
+            <div class="card-body">
+              <a href="Capricorn/Capricorn_compatibility.html">
+                <h5 class="card-title" style="font-size:30px;">Capricorn</h5>
+                <p class="card-text">December 22-January 19</p>
+              </a>
+            </div>
+          </div>
+          <div class="card" style="background: rgba(255,255,255,0.1)">
+            <img src="https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2020/12/16/aquaris-1590937824-927780-1608060601.jpg?itok=8qd90QLr" alt="...">
+            <div class="card-body">
+              <a href="Aquarius/Aquarius_compatibility.html">
+                <h5 class="card-title" style="font-size:30px;">Aquarius</h5>
+                <p class="card-text">January 20-February 18</p>
+              </a>
+            </div>
+          </div>
+          <div class="card" style="background: rgba(255,255,255,0.1)">
+            <img src="https://i0.wp.com/www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2020/11/30/pisces-horoscope-921317-1606678201.jpg?itok=X4ZEQ4Oo?resize=91,91" alt="...">
+            <div class="card-body">  
+              <a href="Pisces/Pisces_compatibility.html">
+                <h5 class="card-title" style="font-size:30px;">Pisces</h5>
+                <p class="card-text">February 19-March 19</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="font-family:'Times New Roman', serif;text-align:center;">
+        <h2><u>Compatibility of Sun Signs</u></h2>
+        <p>With the Sun defining a certain portion of our personality, we have to admit that it will influence the same center of power in all other people. From this point of view, compatibility of different Sun signs speaks of primal instinctive recognition and the potential two people have for mutual respect. Although these matters will truly be seen only through rulers of the signs where the two Suns are set and other personal positions, this sort of interpretation gives us an insight on basic awareness one person has for the other. It will speak of the way creative energies will intertwine and grow, initiatives of two people collide or support each other, and if they will instantly find Unity between their personalities or not.</p>
+        <p>Each compatibility report found on these pages is just a small window into the world of relationships, helping us understand what the other person strives for and which difficulties they might have to cope with daily. The purpose of these interpretations isn’t to define the potential a relationship has to last or “succeed”, but to help us find deeper understanding for the person standing in front of us, mirroring our own personality with all its weaknesses and strengths. If we see the light in other people, we will be able to truly see their role in our lives and find ways to shine together, raising awareness and building up a better world for everyone.</p>
+        <h2 style="margin-top:30px;"><u>Relationships in Astrology</u></h2>
+        <p>There is no way to fully grasp two personalities and their contact based solely on compatibility of their Sun signs. In order to truly approach the relationship between two people as a special entity that lives its own life, we have to use personal data, both natal charts, their comparison, and methods such as midpoint and Davison’s method in order to find specific stories of each couple. Just like it is impossible to view all people through twelve drawers of the twelve basic Sun signs, it is also not possible to view their relationships based on the same primal division.</p>
+        <h2 style="margin-top:30px;"><u>The Sun and Personality</u></h2>
+        <p>Personality is pretty much defined by the position of one’s natal Sun. Although it will only show a glimpse of light on character, the Sun is still the largest body in the Solar system. It gives us life and makes everything else turn around it, and will stand for nature one is most likely to lean towards over the years. It is our inner beam of light and our personal gravitational pull, defining us in time even if it manifests through our boss, father, authority, or anyone else in its symbolism. We all do everything we can to reach the power from our personal Sun and it helps us sense the power of will in other people too. Our Sun sign will teach us about personal boundaries, respect towards ourselves and everyone else, and speak of the instinctive approach we have towards different individuals that come into our lives.</p>
+        <h2 style="margin-top:30px;margin-bottom:80px;"><u>Quotes on Astrology and Zodiacs</u></h2>
+        <div class="quotes">
+          <blockquote style="font-size:30px; text-align:left; margin-bottom:3px;">
+            “Anyone can be a millionaire, but to become a billionaire you need an astrologer.”
+          </blockquote>
+          <p style="text-align:right; margin-top:3px "><b><i>--J.P.Morgan</i></b></p>
+        </div>
+        <div class="quotes">
+          <blockquote style="font-size:30px; text-align:right; margin-bottom:3px;">
+            “A physician without a knowledge of Astrology has no right to call himself a physician.”
+          </blockquote>
+          <p style="text-align:left; margin-top:3px "><b><i>Hippocrates--</i></b></p>
+        </div>
+        <div class="quotes">
+          <blockquote style="font-size:30px; text-align:left; margin-bottom:3px;">
+              “We need not feel ashamed of flirting with the zodiac.  The zodiac is well worth flirting with.”
+          </blockquote>
+          <p style="text-align:right; margin-top:3px "><b><i>--J.H. Lawrence</i></b></p>
+        </div>
+        <div class="quotes">
+          <blockquote style="font-size:30px; text-align:right; margin-bottom:3px;">
+            “The soul of the newly born baby is marked for life by the pattern of the stars at the moment it comes into the world, unconsciously remembers it, and remains sensitive to the return of configurations of a similar kind.”
+          </blockquote>
+          <p style="text-align:left; margin-top:3px "><b><i>Johannes Kepler--</i></b></p>
+        </div>
+        <div class="quotes">
+          <blockquote style="font-size:30px; text-align:left; margin-bottom:3px;">
+              “Your path is illuminated by a road-map of stars. I am here to guide you!”
+          </blockquote>
+          <p style="text-align:right; margin-top:3px "><b><i>--Ambika Devi</i></b></p>
+        </div>
+      </div>
+    </div>
+
+    <footer style="background:rgba(255,255,255,0.1);margin-top:20px; margin-bottom:-100px;">
+      <p style="padding:20px; text-align:center; color:#ffffff">Copyright &copy ZodiacGuru.com</p>
+    </footer>
+    <script>
+      var ad1=document.getElementsByClassName("card-body");
+      for(var i=0;i<12;i++)
+      {
+        ad1[i].addEventListener('mouseover',function(){
+          this.style.color="#4169E1";
+          this.style.background="rgba(0,0,0,0.9)";
+          
+        });
+        ad1[i].addEventListener('mouseout',function(){
+          this.style.color="#ffffff";
+          this.style.background="rgba(255,255,255,0)";
+          
+        });
+      }
+    </script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
+
